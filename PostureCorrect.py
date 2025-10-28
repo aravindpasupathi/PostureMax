@@ -1,7 +1,7 @@
 import cv2
 import mediapipe as mp
 import math
-import time
+
 
 def calculate_angle(a, b):
     radians = math.atan2(b.y - a.y, b.x - a.x)

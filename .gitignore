@@ -1,0 +1,27 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Editors/IDE
+.vscode/
+.idea/
+
+# Data & models
+data/
+models/
+posture_dataset.csv
+*.pkl
+*.joblib
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
